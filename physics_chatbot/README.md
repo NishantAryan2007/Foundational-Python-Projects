@@ -27,13 +27,17 @@ You only need **Python 3.x** installed on your system. Because this project reli
    ```bash
    python chatbot.py
 Bot: Hi! I am your Physics Chatbot. Ask me about Mechanics, Optics, or Thermodynamics.
+
 You: mechanics
+
 Bot: Great choice! What would you like to know about this topic?
 1. Overview
 2. Definition
 3. Laws
 4. Scientist info
+
 You: laws
+
 Bot: The fundamental laws of mechanics are Newton's three laws of motion: the law of inertia, the law of acceleration, and the law of action and reaction.
 
 Do you want to continue with Mechanics or choose another topic?
