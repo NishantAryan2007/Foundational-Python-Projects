@@ -46,6 +46,6 @@ You: no
 
 Bot: Okay, which topic do you want to choose? Mechanics, Optics, or Thermodynamics?
 
-Customization:
+## Customization:
 
 To add new subjects or responses, simply open intents.json and add a new dictionary object to the "intents" list following the existing structure. Update the topic_intent_map in chatbot.py if you are adding an entirely new branch of physics.
