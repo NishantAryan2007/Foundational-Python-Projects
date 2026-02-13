@@ -41,7 +41,11 @@ You: laws
 Bot: The fundamental laws of mechanics are Newton's three laws of motion: the law of inertia, the law of acceleration, and the law of action and reaction.
 
 Do you want to continue with Mechanics or choose another topic?
+
 You: no
+
 Bot: Okay, which topic do you want to choose? Mechanics, Optics, or Thermodynamics?
-Customization
+
+Customization:
+
 To add new subjects or responses, simply open intents.json and add a new dictionary object to the "intents" list following the existing structure. Update the topic_intent_map in chatbot.py if you are adding an entirely new branch of physics.
