@@ -1,0 +1,109 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! I can help you with basic physics topics like Mechanics, Optics, and Thermodynamics."
+      ]
+    },
+
+    {
+      "tag": "choose_topic",
+      "patterns": ["mechanics", "optics", "thermodynamics"],
+      "responses": [
+        "Great choice! What would you like to know about this topic?\n1. Overview\n2. Definition\n3. Laws\n4. Scientist info"
+      ]
+    },
+
+    {
+      "tag": "mechanics_overview",
+      "patterns": ["overview", "tell me about mechanics", "mechanics overview"],
+      "responses": [
+        "Mechanics is the branch of physics that deals with the motion of objects and the forces acting on them. It includes concepts like velocity, acceleration, force, work, and energy. Classical mechanics is governed by Newton’s laws of motion."
+      ]
+    },
+
+    {
+      "tag": "mechanics_definition",
+      "patterns": ["definition", "what is mechanics", "define mechanics"],
+      "responses": [
+        "Mechanics is defined as the branch of physics that studies the motion of bodies under the action of forces."
+      ]
+    },
+
+    {
+      "tag": "mechanics_laws",
+      "patterns": ["laws", "mechanics laws", "newton laws"],
+      "responses": [
+        "The fundamental laws of mechanics are Newton's three laws of motion: the law of inertia, the law of acceleration, and the law of action and reaction."
+      ]
+    },
+
+    {
+      "tag": "mechanics_facts",
+      "patterns": ["scientist", "isaac newton", "newton born"],
+      "responses": [
+        "Isaac Newton, who laid the foundation of classical mechanics, was born in the year 1643."
+      ]
+    },
+
+    {
+      "tag": "optics_overview",
+      "patterns": ["optics overview", "tell me about optics"],
+      "responses": [
+        "Optics is the branch of physics that deals with the study of light, its properties, and its interaction with matter. It includes phenomena such as reflection, refraction, and dispersion."
+      ]
+    },
+
+    {
+      "tag": "optics_definition",
+      "patterns": ["what is optics", "define optics"],
+      "responses": [
+        "Optics is defined as the branch of physics that studies the behavior and properties of light."
+      ]
+    },
+
+    {
+      "tag": "optics_laws",
+      "patterns": ["optics laws", "laws of reflection", "laws of refraction"],
+      "responses": [
+        "Important laws in optics include the laws of reflection and the laws of refraction, which describe how light behaves at surfaces and boundaries."
+      ]
+    },
+
+    {
+      "tag": "thermodynamics_overview",
+      "patterns": ["thermodynamics overview", "tell me about thermodynamics"],
+      "responses": [
+        "Thermodynamics is the branch of physics that deals with heat, temperature, work, and energy, and the laws governing their conversion."
+      ]
+    },
+
+    {
+      "tag": "thermodynamics_definition",
+      "patterns": ["what is thermodynamics", "define thermodynamics"],
+      "responses": [
+        "Thermodynamics is defined as the branch of physics that studies the relationship between heat, work, and energy."
+      ]
+    },
+
+    {
+      "tag": "thermodynamics_laws",
+      "patterns": ["laws of thermodynamics", "thermodynamics laws"],
+      "responses": [
+        "There are four laws of thermodynamics: the zeroth law, first law, second law, and third law, which describe energy transfer and entropy."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "exit"],
+      "responses": [
+        "Goodbye! Feel free to ask more physics questions anytime."
+      ]
+    }
+
+  ]
+}
