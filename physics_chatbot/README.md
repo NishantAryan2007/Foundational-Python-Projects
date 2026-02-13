@@ -1,6 +1,6 @@
 # Physics Educational Chatbot
 
-A simple, interactive, terminal-based Python chatbot designed to help users learn about core physics topics: **Mechanics, Optics,** and **Thermodynamics**. 
+A simple, interactive, terminal-based Python chatbot designed to help users learn about core physics topics: **Mechanics**, **Optics**, and **Thermodynamics**.
 
 The bot uses a pattern-matching approach to understand user input and features a guided conversation loop that remembers the current topic being discussed.
 
@@ -26,8 +26,7 @@ You only need **Python 3.x** installed on your system. Because this project reli
 5. Run the script:
    ```bash
    python chatbot.py
-
-   Bot: Hi! I am your Physics Chatbot. Ask me about Mechanics, Optics, or Thermodynamics.
+Bot: Hi! I am your Physics Chatbot. Ask me about Mechanics, Optics, or Thermodynamics.
 You: mechanics
 Bot: Great choice! What would you like to know about this topic?
 1. Overview
@@ -42,8 +41,3 @@ You: no
 Bot: Okay, which topic do you want to choose? Mechanics, Optics, or Thermodynamics?
 Customization
 To add new subjects or responses, simply open intents.json and add a new dictionary object to the "intents" list following the existing structure. Update the topic_intent_map in chatbot.py if you are adding an entirely new branch of physics.
-
-
----
-
-**Would you like me to show you how to easily add a brand new topic (like "Electromagnetism") to both your Python code and your JSON file?**
